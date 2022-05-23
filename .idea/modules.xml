@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rpc-annotion/rpc-annotion.iml" filepath="$PROJECT_DIR$/rpc-annotion/rpc-annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-core/rpc-core.iml" filepath="$PROJECT_DIR$/rpc-core/rpc-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rpc-framework.iml" filepath="$PROJECT_DIR$/.idea/rpc-framework.iml" />
+    </modules>
+  </component>
+</project>
