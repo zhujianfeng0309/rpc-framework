@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/rpc-annotion/rpc-annotion.iml" filepath="$PROJECT_DIR$/rpc-annotion/rpc-annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rpc-annotation/rpc-annotation.iml" filepath="$PROJECT_DIR$/rpc-annotation/rpc-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpc-core/rpc-core.iml" filepath="$PROJECT_DIR$/rpc-core/rpc-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/rpc-framework.iml" filepath="$PROJECT_DIR$/.idea/rpc-framework.iml" />
     </modules>

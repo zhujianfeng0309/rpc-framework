@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.rpc.framework</groupId>
-    <artifactId>rpc-annotion</artifactId>
+    <artifactId>rpc-annotation</artifactId>
     <version>1.0-SNAPSHOT</version>
 
 
