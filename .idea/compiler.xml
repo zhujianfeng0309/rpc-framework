@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rpc-annotation" target="1.5" />
-      <module name="rpc-core" target="1.5" />
+      <module name="rpc-core" target="6" />
       <module name="rpc-framework" target="1.5" />
     </bytecodeTargetLevel>
   </component>
