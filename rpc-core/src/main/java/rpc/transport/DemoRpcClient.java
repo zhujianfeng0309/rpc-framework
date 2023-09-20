@@ -1,8 +1,6 @@
 package rpc.transport;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.codec.DemoRpcDecoder;
-import com.demo.rpc.codec.DemoRpcEncoder;
+
 import io.netty.bootstrap.Bootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.ChannelFuture;
@@ -11,6 +9,9 @@ import io.netty.channel.ChannelOption;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import rpc.Constants;
+import rpc.codec.DemoRpcDecoder;
+import rpc.codec.DemoRpcEncoder;
 
 import java.io.Closeable;
 

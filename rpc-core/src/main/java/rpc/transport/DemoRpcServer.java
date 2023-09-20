@@ -1,7 +1,5 @@
 package rpc.transport;
 
-import com.demo.rpc.codec.DemoRpcDecoder;
-import com.demo.rpc.codec.DemoRpcEncoder;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.PooledByteBufAllocator;
 import io.netty.channel.*;
@@ -9,6 +7,8 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
+import rpc.codec.DemoRpcDecoder;
+import rpc.codec.DemoRpcEncoder;
 
 public class DemoRpcServer {
 

@@ -1,10 +1,10 @@
 package rpc.transport;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Request;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import rpc.Constants;
+import rpc.protocol.Message;
+import rpc.protocol.Request;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

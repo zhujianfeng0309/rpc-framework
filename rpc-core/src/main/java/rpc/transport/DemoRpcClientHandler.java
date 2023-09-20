@@ -1,10 +1,11 @@
 package rpc.transport;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Response;
+
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
+import rpc.Constants;
+import rpc.protocol.Message;
+import rpc.protocol.Response;
 
 public class DemoRpcClientHandler extends SimpleChannelInboundHandler<Message<Response>> {
 
@@ -20,5 +21,10 @@ public class DemoRpcClientHandler extends SimpleChannelInboundHandler<Message<Re
         }
         responseFuture.getPromise().setSuccess(response.getResult());
     }
-}
 
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("client and server connected ");
+        super.channelActive(ctx);
+    }
+}

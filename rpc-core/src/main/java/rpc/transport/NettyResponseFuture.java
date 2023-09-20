@@ -1,9 +1,11 @@
 package rpc.transport;
 
-import com.demo.rpc.protocol.Message;
 import io.netty.channel.Channel;
 import io.netty.util.concurrent.Promise;
+import lombok.Builder;
+import rpc.protocol.Message;
 
+@Builder
 public class NettyResponseFuture<T> {
     private long createTime;
     private long timeOut;

@@ -1,14 +1,14 @@
 package rpc.transport;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.protocol.Header;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Request;
-import com.demo.rpc.protocol.Response;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.DefaultEventLoop;
 import io.netty.util.concurrent.DefaultPromise;
 import io.netty.util.concurrent.Promise;
+import rpc.Constants;
+import rpc.protocol.Header;
+import rpc.protocol.Message;
+import rpc.protocol.Request;
+import rpc.protocol.Response;
 
 import java.io.Closeable;
 import java.io.IOException;

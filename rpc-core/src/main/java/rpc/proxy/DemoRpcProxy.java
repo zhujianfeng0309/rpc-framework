@@ -1,16 +1,17 @@
 package rpc.proxy;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.protocol.Header;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Request;
-import com.demo.rpc.registry.Registry;
-import com.demo.rpc.registry.ServerInfo;
-import com.demo.rpc.transport.Connection;
-import com.demo.rpc.transport.DemoRpcClient;
-import com.demo.rpc.transport.NettyResponseFuture;
+
 import io.netty.channel.ChannelFuture;
 import org.apache.curator.x.discovery.ServiceInstance;
+import rpc.Constants;
+import rpc.protocol.Header;
+import rpc.protocol.Message;
+import rpc.protocol.Request;
+import rpc.registry.Registry;
+import rpc.registry.ServerInfo;
+import rpc.transport.Connection;
+import rpc.transport.DemoRpcClient;
+import rpc.transport.NettyResponseFuture;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
@@ -21,8 +22,9 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 
-import static com.demo.rpc.Constants.MAGIC;
-import static com.demo.rpc.Constants.VERSION_1;
+import static rpc.Constants.MAGIC;
+import static rpc.Constants.VERSION_1;
+
 
 public class DemoRpcProxy implements InvocationHandler {
 

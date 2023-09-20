@@ -1,17 +1,18 @@
 package rpc.codec;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.compress.Compressor;
-import com.demo.rpc.compress.CompressorFactory;
-import com.demo.rpc.protocol.Header;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Request;
-import com.demo.rpc.protocol.Response;
-import com.demo.rpc.serialization.Serialization;
-import com.demo.rpc.serialization.SerializationFactory;
+
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
+import rpc.Constants;
+import rpc.compress.Compressor;
+import rpc.compress.CompressorFactory;
+import rpc.protocol.Header;
+import rpc.protocol.Message;
+import rpc.protocol.Request;
+import rpc.protocol.Response;
+import rpc.serialization.Serialization;
+import rpc.serialization.SerializationFactory;
 
 import java.util.List;
 
