@@ -4,11 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/rpc-annotion/pom.xml" />
-        <option value="$PROJECT_DIR$/rpc-core/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-annotion/src/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rpc-annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/simple-rpc/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc-core/pom.xml" />
       </list>
     </option>
   </component>

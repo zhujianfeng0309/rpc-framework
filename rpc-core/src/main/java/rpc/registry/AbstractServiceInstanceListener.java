@@ -1,5 +1,6 @@
 package rpc.registry;
 
+
 import org.apache.curator.x.discovery.ServiceInstance;
 
 public abstract class AbstractServiceInstanceListener<T> implements ServiceInstanceListener<T> {
