@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "rpc.registry",
+      "type": "com.simple.rpc.core.RpcProperties",
+      "sourceType": "com.simple.rpc.core.config.RpcProviderAutoConfiguration",
+      "sourceMethod": "buildRpcProperties()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rpc.registry.addr",
+      "type": "java.lang.String",
+      "sourceType": "com.simple.rpc.core.RpcProperties"
+    },
+    {
+      "name": "rpc.registry.addr",
+      "type": "java.lang.String",
+      "sourceType": "com.simple.rpc.core.RpcProperties"
+    },
+    {
+      "name": "rpc.registry.addr",
+      "type": "java.lang.String",
+      "sourceType": "com.simple.rpc.core.RpcProperties"
+    }
+  ],
+  "hints": []
+}
