@@ -30,8 +30,6 @@ public class RpcReferenceBean implements FactoryBean<Object> {
         return object;
     }
 
-
-
     @Override
     public Class<?> getObjectType() {
         return interfaceClass;

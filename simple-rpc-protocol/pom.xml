@@ -21,8 +21,12 @@
             <artifactId>hessian</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.hll.demo</groupId>
+            <groupId>com.rpc.framework</groupId>
             <artifactId>simple-rpc-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 
