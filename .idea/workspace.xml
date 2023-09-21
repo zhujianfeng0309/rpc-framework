@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4893b01c-7607-4214-bf35-fdfdf032d48b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alipay_sofa_hessian_4_0_66.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hll_demo_simple_rpc_api_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hll_demo_simple_rpc_api_unknown.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hll_demo_simple_rpc_common_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_hll_demo_simple_rpc_core_1_0_SNAPSHOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hll_demo_simple_rpc_core_unknown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-core/rpc-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-core/rpc-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-consumer/simple-rpc-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-consumer/simple-rpc-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-core/simple-rpc-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-core/simple-rpc-core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-core/src/main/java/com/simple/rpc/core/RpcReferenceBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-core/src/main/java/com/simple/rpc/core/RpcReferenceBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-doc/cn.simple.rpc.doc/qa.md" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-doc/cn.simple.rpc.doc/qa.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-protocol/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-protocol/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-protocol/simple-rpc-protocol.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-protocol/simple-rpc-protocol.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-provide/simple-rpc-provide.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-provide/simple-rpc-provide.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-rpc-registry/simple-rpc-registry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple-rpc-registry/simple-rpc-registry.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +92,7 @@
       <recent name="com.rpc.annotation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumer">
+  <component name="RunManager" selected="Spring Boot.RpcProvideApplication">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Consumer" />
       <module name="rpc-core" />
@@ -156,8 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RpcProvideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="simple-rpc-provide" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.simple.rpc.provide.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.simple.rpc.provide.RpcProvideApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RpcProvideApplication" />
         <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Provider" />
       </list>
@@ -181,7 +182,7 @@
       <workItem from="1693963104133" duration="591000" />
       <workItem from="1694046795929" duration="2634000" />
       <workItem from="1695174029289" duration="1682000" />
-      <workItem from="1695188427375" duration="14054000" />
+      <workItem from="1695188427375" duration="46502000" />
     </task>
     <servers />
   </component>

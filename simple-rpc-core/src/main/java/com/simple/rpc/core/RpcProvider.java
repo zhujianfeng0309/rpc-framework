@@ -81,7 +81,7 @@ public class RpcProvider implements InitializingBean, BeanPostProcessor {
     }
 
     /**
-     * 调用在afterPropertiesSet方法之前
+     * 调用在afterPropertiesSet方法之后调用
      * @param bean
      * @param beanName
      * @return

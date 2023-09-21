@@ -30,11 +30,11 @@
             <artifactId>guava</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.hll.demo</groupId>
+            <groupId>com.rpc.framework</groupId>
             <artifactId>simple-rpc-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.hll.demo</groupId>
+            <groupId>com.rpc.framework</groupId>
             <artifactId>simple-rpc-api</artifactId>
         </dependency>
     </dependencies>
