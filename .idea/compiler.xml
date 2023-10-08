@@ -11,11 +11,9 @@
         <module name="simple-rpc-common" />
         <module name="simple-rpc-consumer" />
         <module name="simple-rpc-api" />
-        <module name="rpc-test" />
         <module name="simple-rpc-protocol" />
         <module name="simple-rpc-provide" />
         <module name="simple-rpc-core" />
-        <module name="rpc-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

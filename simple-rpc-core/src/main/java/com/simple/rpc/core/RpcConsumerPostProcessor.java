@@ -1,4 +1,4 @@
-package com.simple.rpc.consumer;
+package com.simple.rpc.core;
 
 
 import com.simple.rpc.core.RpcConstants;

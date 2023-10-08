@@ -43,7 +43,7 @@ public class RpcConsumer {
         SimpleRpcRequest request = protocol.getBody();
         Object[] params = request.getParams();
         String serviceKey = RpcServiceHelper.buildServiceKey(RpcServiceHelper.buildServiceName(request.getAppId(),request.getClassName()), request.getServiceVersion());
-
+        //如果是2个节点，通过参数的hashcode 实现负载均衡
         int invokerHashCode = params.length > 0 ? params[0].hashCode() : serviceKey.hashCode();
         ServiceMeta serviceMetadata = registryService.discovery(serviceKey, invokerHashCode);
 

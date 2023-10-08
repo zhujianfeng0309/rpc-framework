@@ -3,6 +3,7 @@ package com.simple.rpc.core;
 
 
 import com.simple.rpc.core.annotation.RpcProvideService;
+import com.simple.rpc.core.handler.RpcRequestHandler;
 import com.simple.rpc.protocol.codec.SimpleRpcDecoder;
 import com.simple.rpc.protocol.codec.SimpleRpcEncoder;
 import com.simple.rpc.common.RpcServiceHelper;
@@ -105,6 +106,7 @@ public class RpcProvider implements InitializingBean, BeanPostProcessor {
                 serviceMete.put("region", "regionOne");
                 serviceMeta.setMetadata(serviceMete);
                 serviceRegistry.register(serviceMeta);
+                // rpc-provide#com.simple.rpc.api.HelloFacade#1.0.0
                 rpcServiceMap.put(RpcServiceHelper.buildServiceKey(serviceMeta.getServiceName(), serviceMeta.getServiceVersion()), bean);
             } catch (Exception e) {
                 log.error("failed to register service {}#{}", appId, serviceVersion, e);
