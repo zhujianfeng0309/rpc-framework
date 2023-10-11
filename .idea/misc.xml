@@ -10,6 +10,17 @@
         <option value="$PROJECT_DIR$/rpc-annotation/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/simple-rpc-api/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-rpc-common/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-rpc-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-rpc-core/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-rpc-protocol/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-rpc-provide/pom.xml" />
+        <option value="$PROJECT_DIR$/simple-rpc-registry/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
