@@ -159,8 +159,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RpcProvideApplication" />
-        <item itemvalue="Application.Consumer" />
         <item itemvalue="Application.Provider" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Spring Boot.RpcProvideApplication" />
+        <item itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
