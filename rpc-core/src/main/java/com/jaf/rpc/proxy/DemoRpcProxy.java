@@ -1,14 +1,14 @@
 package com.jaf.rpc.proxy;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.protocol.Header;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Request;
-import com.demo.rpc.registry.Registry;
-import com.demo.rpc.registry.ServerInfo;
-import com.demo.rpc.transport.Connection;
-import com.demo.rpc.transport.DemoRpcClient;
-import com.demo.rpc.transport.NettyResponseFuture;
+import com.jaf.rpc.Constants;
+import com.jaf.rpc.protocol.Header;
+import com.jaf.rpc.protocol.Message;
+import com.jaf.rpc.protocol.Request;
+import com.jaf.rpc.registry.Registry;
+import com.jaf.rpc.registry.ServerInfo;
+import com.jaf.rpc.transport.Connection;
+import com.jaf.rpc.transport.DemoRpcClient;
+import com.jaf.rpc.transport.NettyResponseFuture;
 import io.netty.channel.ChannelFuture;
 import org.apache.curator.x.discovery.ServiceInstance;
 
@@ -20,15 +20,14 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
-
-import static com.demo.rpc.Constants.MAGIC;
-import static com.demo.rpc.Constants.VERSION_1;
+import static com.jaf.rpc.Constants.MAGIC;
+import static com.jaf.rpc.Constants.VERSION_1;
 
 public class DemoRpcProxy implements InvocationHandler {
 
     private String serviceName; // 需要代理的服务(接口)名称
 
-    public Map<Method, Header> headerCache = new ConcurrentHashMap<>();
+    public Map<Method, Header> headerCache = new ConcurrentHashMap();
 
     // 用于与Zookeeper交互，其中自带缓存
     private Registry<ServerInfo> registry;
