@@ -1,8 +1,8 @@
 package test;
 
-import com.demo.rpc.proxy.DemoRpcProxy;
-import com.demo.rpc.registry.ServerInfo;
-import com.demo.rpc.registry.ZookeeperRegistry;
+import com.jaf.rpc.proxy.DemoRpcProxy;
+import com.jaf.rpc.registry.ServerInfo;
+import com.jaf.rpc.registry.ZookeeperRegistry;
 
 public class Consumer {
     public static void main(String[] args) throws Exception {

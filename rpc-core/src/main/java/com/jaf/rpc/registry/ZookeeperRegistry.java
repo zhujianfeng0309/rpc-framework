@@ -19,7 +19,7 @@ public class ZookeeperRegistry<T> implements Registry<T> {
 
     private Map<String, List<ServiceInstanceListener<T>>> listeners = Maps.newConcurrentMap();
 
-    private InstanceSerializer serializer = new JsonInstanceSerializer<>(ServerInfo.class);
+    private InstanceSerializer serializer = new JsonInstanceSerializer(ServerInfo.class);
 
     private ServiceDiscovery<T> serviceDiscovery;
 

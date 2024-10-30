@@ -1,9 +1,9 @@
 package test;
 
-import com.demo.rpc.factory.BeanManager;
-import com.demo.rpc.registry.ServerInfo;
-import com.demo.rpc.registry.ZookeeperRegistry;
-import com.demo.rpc.transport.DemoRpcServer;
+import com.jaf.rpc.factory.BeanManager;
+import com.jaf.rpc.registry.ServerInfo;
+import com.jaf.rpc.registry.ZookeeperRegistry;
+import com.jaf.rpc.transport.DemoRpcServer;
 import org.apache.curator.x.discovery.ServiceInstance;
 
 /**

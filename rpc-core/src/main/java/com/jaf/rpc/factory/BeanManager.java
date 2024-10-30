@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class BeanManager {
 
-    private static Map<String, Object> services = new ConcurrentHashMap<>();
+    private static Map<String, Object> services = new ConcurrentHashMap();
 
     public static void registerBean(String serviceName, Object bean) {
         services.put(serviceName, bean);

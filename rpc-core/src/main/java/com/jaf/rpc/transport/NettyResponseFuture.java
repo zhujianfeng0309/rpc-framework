@@ -1,6 +1,6 @@
 package com.jaf.rpc.transport;
 
-import com.demo.rpc.protocol.Message;
+import com.jaf.rpc.protocol.Message;
 import io.netty.channel.Channel;
 import io.netty.util.concurrent.Promise;
 

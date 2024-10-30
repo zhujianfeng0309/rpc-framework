@@ -1,12 +1,12 @@
 package com.jaf.rpc.codec;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.compress.Compressor;
-import com.demo.rpc.compress.CompressorFactory;
-import com.demo.rpc.protocol.Header;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.serialization.Serialization;
-import com.demo.rpc.serialization.SerializationFactory;
+import com.jaf.rpc.Constants;
+import com.jaf.rpc.compress.Compressor;
+import com.jaf.rpc.compress.CompressorFactory;
+import com.jaf.rpc.protocol.Header;
+import com.jaf.rpc.protocol.Message;
+import com.jaf.rpc.serialization.Serialization;
+import com.jaf.rpc.serialization.SerializationFactory;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;

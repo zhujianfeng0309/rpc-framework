@@ -24,7 +24,7 @@ public class Connection implements Closeable {
 
     // TODO 时间轮定时删除
     public final static Map<Long, NettyResponseFuture<Response>> IN_FLIGHT_REQUEST_MAP
-            = new ConcurrentHashMap<>();
+            = new ConcurrentHashMap();
 
     private ChannelFuture future;
 
@@ -70,7 +70,7 @@ public class Connection implements Closeable {
         } catch (Exception e) {
             // 发送请求异常时，删除对应的Future
             IN_FLIGHT_REQUEST_MAP.remove(messageId);
-            throw e;
+            //throw e;
         }
         return responseFuture;
     }

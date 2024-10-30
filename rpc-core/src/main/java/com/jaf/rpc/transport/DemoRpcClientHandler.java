@@ -1,8 +1,8 @@
 package com.jaf.rpc.transport;
 
-import com.demo.rpc.Constants;
-import com.demo.rpc.protocol.Message;
-import com.demo.rpc.protocol.Response;
+import com.jaf.rpc.Constants;
+import com.jaf.rpc.protocol.Message;
+import com.jaf.rpc.protocol.Response;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
