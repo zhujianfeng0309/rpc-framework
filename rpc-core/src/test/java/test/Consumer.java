@@ -7,7 +7,7 @@ import com.jaf.rpc.registry.ZookeeperRegistry;
 public class Consumer {
     public static void main(String[] args) throws Exception {
         // 创建ZookeeperRegistr对象
-        ZookeeperRegistry<ServerInfo> discovery = new ZookeeperRegistry<>();
+        ZookeeperRegistry<ServerInfo> discovery = new ZookeeperRegistry();
         discovery.start();
 
         // 创建代理对象，通过代理调用远端Server
